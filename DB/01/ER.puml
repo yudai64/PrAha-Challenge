@@ -1,0 +1,57 @@
+@startuml
+
+' hide the spot
+' hide circle
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+entity "注文" {
+    *ID
+    --
+    *購入者氏名
+    *購入者番号
+    *購入日
+    *店内利用フラグ
+    *支払いフラグ
+}
+
+entity "注文詳細" {
+    *ID
+    --
+    *注文ID
+    *商品ID
+    *購入数
+    *わさび有無
+    *シャリサイズ
+}
+
+entity "商品" {
+    *ID
+    --
+    *商品名
+    *価格
+    *セットフラグ
+    *カテゴリーID
+}
+
+entity "商品カテゴリー" {
+    *ID
+    --
+    *カテゴリー名
+}
+
+entity "セット_単品" {
+    *ID
+    --
+    *セットID(商品ID参照)
+    *単品ID(商品ID参照)
+}
+
+注文 ||..|{ 注文詳細
+注文詳細 }|..|| 商品
+商品 }|..o{ 商品カテゴリー
+商品 |o..o{ セット_単品
+商品 |o..o{ セット_単品
+
+@enduml

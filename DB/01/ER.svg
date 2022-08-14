@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="715px" preserveAspectRatio="none" style="width:341px;height:715px;background:#FFFFFF;" version="1.1" viewBox="0 0 341 715" width="341px" zoomAndPan="magnify"><defs/><g><!--MD5=[730eebe7647dbd754a69b100681afe07]
+class 注文--><g id="elem_注文"><rect codeLine="8" fill="#F1F1F1" height="146.9297" id="注文" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="191" y="7"/><ellipse cx="234.8" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M238.4143,29.5 L230.6945,29.5 L230.6945,17.1069 L238.4143,17.1069 L238.4143,19.2651 L233.1433,19.2651 L233.1433,21.938 L237.9162,21.938 L237.9162,24.0962 L233.1433,24.0962 L233.1433,27.3418 L238.4143,27.3418 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="255.2" y="28.291">注文</text><line style="stroke:#181818;stroke-width:0.5;" x1="192" x2="314" y1="39" y2="39"/><ellipse cx="202" cy="50" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="211" y="56.5352">ID</text><line style="stroke:#181818;stroke-width:1.0;" x1="192" x2="314" y1="63.4883" y2="63.4883"/><ellipse cx="202" cy="74.4883" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="211" y="81.0234">購入者氏名</text><ellipse cx="202" cy="90.9766" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="211" y="97.5117">購入者番号</text><ellipse cx="202" cy="107.4648" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="211" y="114">購入日</text><ellipse cx="202" cy="123.9531" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="211" y="130.4883">店内利用フラグ</text><ellipse cx="202" cy="140.4414" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="211" y="146.9766">支払いフラグ</text></g><!--MD5=[32be21fb0e1a3afabf2f9518253c8383]
+class 注文詳細--><g id="elem_注文詳細"><rect codeLine="18" fill="#F1F1F1" height="146.9297" id="注文詳細" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="110" x="198" y="214"/><ellipse cx="222.9" cy="230" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M226.5143,236.5 L218.7945,236.5 L218.7945,224.1069 L226.5143,224.1069 L226.5143,226.2651 L221.2433,226.2651 L221.2433,228.938 L226.0162,228.938 L226.0162,231.0962 L221.2433,231.0962 L221.2433,234.3418 L226.5143,234.3418 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="239.1" y="235.291">注文詳細</text><line style="stroke:#181818;stroke-width:0.5;" x1="199" x2="307" y1="246" y2="246"/><ellipse cx="209" cy="257" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="218" y="263.5352">ID</text><line style="stroke:#181818;stroke-width:1.0;" x1="199" x2="307" y1="270.4883" y2="270.4883"/><ellipse cx="209" cy="281.4883" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="218" y="288.0234">注文ID</text><ellipse cx="209" cy="297.9766" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="218" y="304.5117">商品ID</text><ellipse cx="209" cy="314.4648" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="218" y="321">購入数</text><ellipse cx="209" cy="330.9531" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="218" y="337.4883">わさび有無</text><ellipse cx="209" cy="347.4414" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="218" y="353.9766">シャリサイズ</text></g><!--MD5=[f3f3ac258fa4e1f461f5dac7ab946e3c]
+class 商品--><g id="elem_商品"><rect codeLine="28" fill="#F1F1F1" height="130.4414" id="商品" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="110" x="198" y="421"/><ellipse cx="235.5" cy="437" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M239.1143,443.5 L231.3945,443.5 L231.3945,431.1069 L239.1143,431.1069 L239.1143,433.2651 L233.8433,433.2651 L233.8433,435.938 L238.6162,435.938 L238.6162,438.0962 L233.8433,438.0962 L233.8433,441.3418 L239.1143,441.3418 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="254.5" y="442.291">商品</text><line style="stroke:#181818;stroke-width:0.5;" x1="199" x2="307" y1="453" y2="453"/><ellipse cx="209" cy="464" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="218" y="470.5352">ID</text><line style="stroke:#181818;stroke-width:1.0;" x1="199" x2="307" y1="477.4883" y2="477.4883"/><ellipse cx="209" cy="488.4883" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="218" y="495.0234">商品名</text><ellipse cx="209" cy="504.9766" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="218" y="511.5117">価格</text><ellipse cx="209" cy="521.4648" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="218" y="528">セットフラグ</text><ellipse cx="209" cy="537.9531" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="218" y="544.4883">カテゴリーID</text></g><!--MD5=[df5706b41a310f93b2e266943e6f95a9]
+class 商品カテゴリー--><g id="elem_商品カテゴリー"><rect codeLine="37" fill="#F1F1F1" height="80.9766" id="商品カテゴリー" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="7" y="619"/><ellipse cx="22" cy="635" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M25.6143,641.5 L17.8945,641.5 L17.8945,629.1069 L25.6143,629.1069 L25.6143,631.2651 L20.3433,631.2651 L20.3433,633.938 L25.1162,633.938 L25.1162,636.0962 L20.3433,636.0962 L20.3433,639.3418 L25.6143,639.3418 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="36" y="640.291">商品カテゴリー</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="136" y1="651" y2="651"/><ellipse cx="18" cy="662" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="27" y="668.5352">ID</text><line style="stroke:#181818;stroke-width:1.0;" x1="8" x2="136" y1="675.4883" y2="675.4883"/><ellipse cx="18" cy="686.4883" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="27" y="693.0234">カテゴリー名</text></g><!--MD5=[ff0edf0d3492677c2215ef796359c354]
+class セット_単品--><g id="elem_セット_単品"><rect codeLine="43" fill="#F1F1F1" height="97.4648" id="セット_単品" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="162" x="172" y="611"/><ellipse cx="210.85" cy="627" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M214.4643,633.5 L206.7445,633.5 L206.7445,621.1069 L214.4643,621.1069 L214.4643,623.2651 L209.1933,623.2651 L209.1933,625.938 L213.9662,625.938 L213.9662,628.0962 L209.1933,628.0962 L209.1933,631.3418 L214.4643,631.3418 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="230.15" y="632.291">セット_単品</text><line style="stroke:#181818;stroke-width:0.5;" x1="173" x2="333" y1="643" y2="643"/><ellipse cx="183" cy="654" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="192" y="660.5352">ID</text><line style="stroke:#181818;stroke-width:1.0;" x1="173" x2="333" y1="667.4883" y2="667.4883"/><ellipse cx="183" cy="678.4883" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="192" y="685.0234">セットID(商品ID参照)</text><ellipse cx="183" cy="694.9766" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="192" y="701.5117">単品ID(商品ID参照)</text></g><!--MD5=[a7d16d2a77ef5589a4f2a456f6056c1a]
+link 注文 to 注文詳細--><g id="link_注文_注文詳細"><path codeLine="50" d="M253,162.06 C253,162.06 253,205.83 253,205.83 " fill="none" id="注文-注文詳細" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="253" x2="259" y1="205.83" y2="213.83"/><line style="stroke:#181818;stroke-width:1.0;" x1="253" x2="247" y1="205.83" y2="213.83"/><line style="stroke:#181818;stroke-width:1.0;" x1="253" x2="253" y1="205.83" y2="213.83"/><line style="stroke:#181818;stroke-width:1.0;" x1="257" x2="249" y1="203.83" y2="203.83"/><line style="stroke:#181818;stroke-width:1.0;" x1="249" x2="257" y1="158.06" y2="158.06"/><line style="stroke:#181818;stroke-width:1.0;" x1="249" x2="257" y1="161.06" y2="161.06"/><line style="stroke:#181818;stroke-width:1.0;" x1="253" x2="253" y1="162.06" y2="154.06"/></g><!--MD5=[9b1c5fc0d11b7e62cf159906354a743f]
+link 注文詳細 to 商品--><g id="link_注文詳細_商品"><path codeLine="51" d="M253,369.13 C253,369.13 253,412.99 253,412.99 " fill="none" id="注文詳細-商品" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="257" x2="249" y1="416.99" y2="416.99"/><line style="stroke:#181818;stroke-width:1.0;" x1="257" x2="249" y1="413.99" y2="413.99"/><line style="stroke:#181818;stroke-width:1.0;" x1="253" x2="253" y1="412.99" y2="420.99"/><line style="stroke:#181818;stroke-width:1.0;" x1="253" x2="247" y1="369.13" y2="361.13"/><line style="stroke:#181818;stroke-width:1.0;" x1="253" x2="259" y1="369.13" y2="361.13"/><line style="stroke:#181818;stroke-width:1.0;" x1="253" x2="253" y1="369.13" y2="361.13"/><line style="stroke:#181818;stroke-width:1.0;" x1="249" x2="257" y1="371.13" y2="371.13"/></g><!--MD5=[ac1c9296b2c086e0ce4284ee2460e3bb]
+link 商品 to 商品カテゴリー--><g id="link_商品_商品カテゴリー"><path codeLine="52" d="M189.71,486 C189.71,486 72,486 72,486 C72,486 72,610.82 72,610.82 " fill="none" id="商品-商品カテゴリー" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="72" x2="78" y1="610.82" y2="618.82"/><line style="stroke:#181818;stroke-width:1.0;" x1="72" x2="66" y1="610.82" y2="618.82"/><line style="stroke:#181818;stroke-width:1.0;" x1="72" x2="72" y1="610.82" y2="618.82"/><ellipse cx="72" cy="604.82" fill="none" rx="4" ry="4" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="189.71" x2="197.71" y1="486" y2="480"/><line style="stroke:#181818;stroke-width:1.0;" x1="189.71" x2="197.71" y1="486" y2="492"/><line style="stroke:#181818;stroke-width:1.0;" x1="189.71" x2="197.71" y1="486" y2="486"/><line style="stroke:#181818;stroke-width:1.0;" x1="187.71" x2="187.71" y1="482" y2="490"/></g><!--MD5=[244a5a8570ddf4ebcb1fbb2ebf00e88b]
+link 商品 to セット_単品--><g id="link_商品_セット_単品"><path codeLine="53" d="M234.67,559.1 C234.67,559.1 234.67,602.85 234.67,602.85 " fill="none" id="商品-セット_単品" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="234.67" x2="240.67" y1="602.85" y2="610.85"/><line style="stroke:#181818;stroke-width:1.0;" x1="234.67" x2="228.67" y1="602.85" y2="610.85"/><line style="stroke:#181818;stroke-width:1.0;" x1="234.67" x2="234.67" y1="602.85" y2="610.85"/><ellipse cx="234.67" cy="596.85" fill="none" rx="4" ry="4" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="234.67" x2="234.67" y1="562.1" y2="551.1"/><ellipse cx="234.67" cy="562.1" fill="none" rx="4" ry="4" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="230.67" x2="238.67" y1="555.1" y2="555.1"/></g><!--MD5=[244a5a8570ddf4ebcb1fbb2ebf00e88b]
+link 商品 to セット_単品--><g id="link_商品_セット_単品"><path codeLine="54" d="M271.33,559.1 C271.33,559.1 271.33,602.85 271.33,602.85 " fill="none" id="商品-セット_単品-1" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="271.33" x2="277.33" y1="602.85" y2="610.85"/><line style="stroke:#181818;stroke-width:1.0;" x1="271.33" x2="265.33" y1="602.85" y2="610.85"/><line style="stroke:#181818;stroke-width:1.0;" x1="271.33" x2="271.33" y1="602.85" y2="610.85"/><ellipse cx="271.33" cy="596.85" fill="none" rx="4" ry="4" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="271.33" x2="271.33" y1="562.1" y2="551.1"/><ellipse cx="271.33" cy="562.1" fill="none" rx="4" ry="4" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="267.33" x2="275.33" y1="555.1" y2="555.1"/></g><!--MD5=[1580d24baa566be35beb8a6a02261cd1]
+@startuml
+
+' hide the spot
+' hide circle
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+entity "注文" {
+    *ID
+    - -
+    *購入者氏名
+    *購入者番号
+    *購入日
+    *店内利用フラグ
+    *支払いフラグ
+}
+
+entity "注文詳細" {
+    *ID
+    - -
+    *注文ID
+    *商品ID
+    *購入数
+    *わさび有無
+    *シャリサイズ
+}
+
+entity "商品" {
+    *ID
+    - -
+    *商品名
+    *価格
+    *セットフラグ
+    *カテゴリーID
+}
+
+entity "商品カテゴリー" {
+    *ID
+    - -
+    *カテゴリー名
+}
+
+entity "セット_単品" {
+    *ID
+    - -
+    *セットID(商品ID参照)
+    *単品ID(商品ID参照)
+}
+
+注文 ||..|{ 注文詳細
+注文詳細 }|..|| 商品
+商品 }|..o{ 商品カテゴリー
+商品 |o..o{ セット_単品
+商品 |o..o{ セット_単品
+
+@enduml
+
+@startuml
+
+
+skinparam linetype ortho
+
+entity "注文" {
+    *ID
+    - -
+    *購入者氏名
+    *購入者番号
+    *購入日
+    *店内利用フラグ
+    *支払いフラグ
+}
+
+entity "注文詳細" {
+    *ID
+    - -
+    *注文ID
+    *商品ID
+    *購入数
+    *わさび有無
+    *シャリサイズ
+}
+
+entity "商品" {
+    *ID
+    - -
+    *商品名
+    *価格
+    *セットフラグ
+    *カテゴリーID
+}
+
+entity "商品カテゴリー" {
+    *ID
+    - -
+    *カテゴリー名
+}
+
+entity "セット_単品" {
+    *ID
+    - -
+    *セットID(商品ID参照)
+    *単品ID(商品ID参照)
+}
+
+注文 ||..|{ 注文詳細
+注文詳細 }|..|| 商品
+商品 }|..o{ 商品カテゴリー
+商品 |o..o{ セット_単品
+商品 |o..o{ セット_単品
+
+@enduml
+
+PlantUML version 1.2022.6(Wed Jun 22 02:34:49 JST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: ja
+Country: JP
+--></g></svg>
