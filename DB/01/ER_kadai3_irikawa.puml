@@ -1,0 +1,45 @@
+@startuml
+
+' hide the spot
+' hide circle
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+entity "注文" {
+    *ID
+    --
+    *購入者氏名
+    *購入者番号
+    *購入日
+    *会員コード
+    *店内利用フラグ
+    *支払いフラグ
+}
+
+entity "会員" {
+    *ID
+    --
+    *会員コード
+    *氏名
+    *氏名_かな
+    *電話番号
+    *会員ランクコード
+}
+
+entity "会員ランク" {
+    *ランクコード
+    *ランク名
+}
+
+entity "割引率" {
+    *会員ランクコード
+    *割引率
+}
+
+注文 }o..o| 会員
+会員 }o..|| 会員ランク
+会員ランク ||..|| 割引率
+
+
+@enduml
