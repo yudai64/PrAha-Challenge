@@ -1,0 +1,60 @@
+@startuml
+
+' hide the spot
+' hide circle
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+entity "ワークスペース" {
+    *ID
+    --
+    *ワークスペース名
+    *URL
+    *作成者ID
+}
+
+entity "チャネル" {
+    *ID
+    --
+    *ワークスペースID
+    *チャネル名
+    *作成者ID
+}
+
+entity "メッセージ" {
+    *ID
+    --
+    *ユーザーID
+    *チャネルID
+    *メンション
+    *本文
+    *親メッセージフラグ
+    *編集済みフラグ
+}
+
+entity "スレッド" {
+    *ID
+    --
+    *親メッセージID
+    *子メッセージID
+}
+
+
+entity "ユーザー" {
+    *ID
+    --
+    *表示名
+}
+
+ワークスペース ||.r.o{ チャネル
+チャネル ||.r.o{ メッセージ
+メッセージ ||.r.o{ スレッド
+ユーザー }|.d.o{ ワークスペース
+ユーザー }|.d.o{ チャネル
+ユーザー ||.d.o{ スレッド
+ユーザー ||.d.o{ メッセージ
+
+note bottom of スレッド : スレッドの一番初めのメッセージを親メッセージIDとする
+
+@enduml
