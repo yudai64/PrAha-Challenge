@@ -4,7 +4,7 @@
 ' hide circle
 
 ' avoid problems with angled crows feet
-skinparam linetype ortho
+' skinparam linetype ortho
 
 entity "ワークスペース" {
     *ID
@@ -41,12 +41,12 @@ entity "ユーザー" {
     *表示名
 }
 
-ワークスペース ||.r.o{ チャネル
-チャネル ||.r.o{ メッセージ
-メッセージ ||.r.o{ スレッド
-ユーザー }|.d.o{ ワークスペース
-ユーザー }|.d.o{ チャネル
-ユーザー ||.d.o{ メッセージ
+ワークスペース ||-r-o{ チャネル
+チャネル ||-r-o{ メッセージ
+メッセージ ||-r-o{ スレッド
+ユーザー }|-d-o{ ワークスペース
+ユーザー }|-d-o{ チャネル
+ユーザー ||-d-o{ メッセージ
 
 note bottom of スレッド : スレッドの一番初めのメッセージを親メッセージIDとする
 
