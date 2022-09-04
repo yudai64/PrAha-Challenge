@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="193px" preserveAspectRatio="none" style="width:283px;height:193px;background:#FFFFFF;" version="1.1" viewBox="0 0 283 193" width="283px" zoomAndPan="magnify"><defs/><g><!--MD5=[1e3465318027d9541c1aee7e8ec19b84]
+class タスク--><g id="elem_タスク"><rect codeLine="2" fill="#F1F1F1" height="179.9063" id="タスク" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="166" x="7" y="7"/><ellipse cx="64.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M68.3643,29.5 L60.6445,29.5 L60.6445,17.1069 L68.3643,17.1069 L68.3643,19.2651 L63.0933,19.2651 L63.0933,21.938 L67.8662,21.938 L67.8662,24.0962 L63.0933,24.0962 L63.0933,27.3418 L68.3643,27.3418 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="85.25" y="28.291">タスク</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="172" y1="39" y2="39"/><ellipse cx="18" cy="50" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="27" y="56.5352">ID</text><line style="stroke:#181818;stroke-width:1.0;" x1="8" x2="172" y1="63.4883" y2="63.4883"/><ellipse cx="18" cy="74.4883" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="27" y="81.0234">作成者ユーザー</text><ellipse cx="18" cy="90.9766" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="27" y="97.5117">宛先チャネル</text><ellipse cx="18" cy="107.4648" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="27" y="114">メッセージ</text><ellipse cx="18" cy="123.9531" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="27" y="130.4883">チャネル</text><ellipse cx="18" cy="140.4414" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="27" y="146.9766">頻度ID</text><ellipse cx="18" cy="156.9297" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="27" y="163.4648">リマインド実行日時</text><ellipse cx="18" cy="173.418" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="27" y="179.9531">リマインダー作成日時</text></g><!--MD5=[e808c9506337d616aadcee338434e3e1]
+class 頻度--><g id="elem_頻度"><rect codeLine="14" fill="#F1F1F1" height="80.9766" id="頻度" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="68" x="208" y="56.5"/><ellipse cx="226.6" cy="72.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M230.2143,79 L222.4945,79 L222.4945,66.6069 L230.2143,66.6069 L230.2143,68.7651 L224.9433,68.7651 L224.9433,71.438 L229.7162,71.438 L229.7162,73.5962 L224.9433,73.5962 L224.9433,76.8418 L230.2143,76.8418 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="241.4" y="77.791">頻度</text><line style="stroke:#181818;stroke-width:0.5;" x1="209" x2="275" y1="88.5" y2="88.5"/><ellipse cx="219" cy="99.5" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="228" y="106.0352">ID</text><line style="stroke:#181818;stroke-width:1.0;" x1="209" x2="275" y1="112.9883" y2="112.9883"/><ellipse cx="219" cy="123.9883" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="228" y="130.5234">頻度名</text></g><!--MD5=[83b3fe30dee84caf7f396a9708504ed4]
+link タスク to 頻度--><g id="link_タスク_頻度"><path codeLine="21" d="M180.17,97 C186.94,97 193.72,97 200.49,97 " fill="none" id="タスク-頻度" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="203.83" x2="203.83" y1="93" y2="101"/><line style="stroke:#181818;stroke-width:1.0;" x1="200.83" x2="200.83" y1="93" y2="101"/><line style="stroke:#181818;stroke-width:1.0;" x1="199.83" x2="207.83" y1="97" y2="97"/><line style="stroke:#181818;stroke-width:1.0;" x1="177.1282" x2="177.1118" y1="100.9918" y2="92.9918"/><line style="stroke:#181818;stroke-width:1.0;" x1="180.1281" x2="180.1118" y1="100.9857" y2="92.9857"/><line style="stroke:#181818;stroke-width:1.0;" x1="181.12" x2="173.12" y1="96.9837" y2="97"/></g><!--MD5=[5c70161dea3d1a0967d200202de374c4]
+@startuml
+
+entity "タスク" {
+    *ID
+    - -
+    *作成者ユーザー
+    *宛先チャネル
+    *メッセージ
+    *チャネル
+    *頻度ID
+    *リマインド実行日時
+    *リマインダー作成日時
+}
+
+entity "頻度" {
+    *ID
+    - -
+    *頻度名
+}
+
+
+タスク ||-r-|| 頻度
+
+@enduml
+
+PlantUML version 1.2022.6(Wed Jun 22 02:34:49 JST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: ja
+Country: JP
+--></g></svg>
