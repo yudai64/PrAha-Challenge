@@ -3,7 +3,6 @@ Table "リマインダー" as r {
   "作成者ユーザー" varchar
   "宛先チャネル" varchar
   "メッセージ" varchar
-  "チャネル" varchar
   "頻度ID" int
   "リマインド実行日時" datetime
   "リマインダー作成日時" datetime
