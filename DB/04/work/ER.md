@@ -5,7 +5,7 @@ Table "リマインダー" as r {
   "メッセージ" varchar
   "頻度ID" int
   "リマインド実行日時" datetime
-  "リマインダー作成日時" datetime
+  "タイムスタンプ" datetime
 }
 
 Table "頻度" as f {
