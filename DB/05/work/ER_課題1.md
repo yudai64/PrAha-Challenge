@@ -6,9 +6,6 @@ Table "ユーザー" as u {
 Table "記事" as b {
   "ID" int
   "ユーザーID" int
-  "タイトル" varchar
-  "本文" varchar
-  "更新日時" datetime
   "作成日時" datetime
 }
 
@@ -17,6 +14,7 @@ Table "記事履歴" as bh {
   "記事ID" int
   "タイトル" varchar
   "本文" datetime
+  "最新フラグ" int
   "更新日時" datetime
 }
 
