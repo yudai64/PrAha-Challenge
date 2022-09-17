@@ -10,7 +10,6 @@ Table "記事" as b {
   "タイトル" varchar
   "本文" varchar
   "最新フラグ" int
-  "更新日時" datetime
   "作成日時" datetime
 }
 
