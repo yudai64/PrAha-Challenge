@@ -1,17 +1,16 @@
 Table "リマインダー" as r {
   "ID" int
   "作成者ユーザー" varchar
-  "宛先チャネル" varchar
   "メッセージ" varchar
-  "頻度ID" int
+  "実行頻度" varchar
   "リマインド実行日時" datetime
   "タイムスタンプ" datetime
 }
 
-Table "頻度" as f {
+Table "宛先" as u {
   "ID" int
-  "頻度種別" int
-  "固有値" int
+  "リマインダーID" int
+  "宛先チャネル" varchar
 }
 
-Ref: r."頻度ID" > f."ID"
+Ref: u."リマインダーID" > r."ID"
