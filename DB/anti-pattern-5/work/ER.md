@@ -1,30 +1,45 @@
 ```
-TABLE NewCustomer as nc {
+TABLE Customer as nc {
   id varchar
 }
 
-TABLE CallHistory as ch {
+TABLE Called {
   id varchar
-  new_customer_id varchar
-  callNote note
+  customer_id varchar
+  callNote date
   created_at timestamp
 }
 
-TABLE InterviewHistory as ih {
+TABLE Interviewed {
   id varchar
-  new_customer_id varchar
+  customer_id varchar
   metAt date
   created_at timestamp
 }
 
-TABLE contract as c {
+TABLE Closed {
   id varchar
-  new_customer_id varchar
+  customer_id varchar
   closedAt date
   created_at timestamp
 }
 
-Ref: ch.new_customer_id > nc.id
-Ref: ih.new_customer_id > nc.id
-Ref: c.new_customer_id > nc.id
+TABLE Canceled {
+  id varchar
+  customer_id varchar
+  closedAt date
+  created_at timestamp
+}
+
+TABLE contactStatus {
+  customer_id varchar
+  
+}
+
+Ref: contactStatus.customer_id - Customer.id
+
+Ref: Called.customer_id > Customer.id
+Ref: Interviewed.customer_id > Customer.id
+Ref: Closed.customer_id > Customer.id
+Ref: Canceled.customer_id > Customer.id
 ```
