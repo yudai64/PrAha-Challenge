@@ -1,6 +1,7 @@
 ```
 TABLE Customer as nc {
   id varchar
+  contactStatus varchar
 }
 
 TABLE Called {
@@ -30,13 +31,6 @@ TABLE Canceled {
   closedAt date
   created_at timestamp
 }
-
-TABLE contactStatus {
-  customer_id varchar
-  
-}
-
-Ref: contactStatus.customer_id - Customer.id
 
 Ref: Called.customer_id > Customer.id
 Ref: Interviewed.customer_id > Customer.id
