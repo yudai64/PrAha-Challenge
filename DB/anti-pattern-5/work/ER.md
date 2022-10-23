@@ -1,7 +1,11 @@
 ```
-TABLE Customer as nc {
+TABLE Customer {
   id varchar
-  contactStatus varchar
+}
+
+TABLE Contact {
+  customer_id varchar
+  status varchar
 }
 
 TABLE Called {
@@ -32,6 +36,7 @@ TABLE Canceled {
   created_at timestamp
 }
 
+Ref: Contact.customer_id - Customer.id
 Ref: Called.customer_id > Customer.id
 Ref: Interviewed.customer_id > Customer.id
 Ref: Closed.customer_id > Customer.id
