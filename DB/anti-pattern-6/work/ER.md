@@ -7,7 +7,7 @@ status varchar
 
 TABLE StudentStatus {
   status varchar
-  isActive tinyint
+  isActive boolean
 }
 
 ref: Student.status > StudentStatus.status
