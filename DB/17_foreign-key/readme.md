@@ -26,6 +26,11 @@
 |  SET DEFAULT  | エラーになる  |  エラーになる  |
 
 `SET DEFAULT` 定義することはできたが期待と違った動きになった
+- 補足
+  - InnoDBを選択していたからぽい
+  - ドキュメントに書かれている内容の意味は、テーブル定義されていたとしても拒否する ということ
+    - [13.1.20.5 FOREIGN KEY の制約](https://dev.mysql.com/doc/refman/8.0/ja/create-table-foreign-keys.html#foreign-key-referential-actions)
+    - [InnoDB mySQL unable to set "ON DELETE SET DEFAULT'. How to set?](https://stackoverflow.com/questions/20943459/innodb-mysql-unable-to-set-on-delete-set-default-how-to-set)
 
 #### 従業員管理サービスの例
 - 部署を削除する場合
