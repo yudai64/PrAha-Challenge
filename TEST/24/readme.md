@@ -50,6 +50,7 @@
 ### 参考
 - [Advantages and disadvantages of Test Driven Development (TDD)](https://www.geeksforgeeks.org/advantages-and-disadvantages-of-test-driven-development-tdd/)
 - [TDD Boot Camp 2020 Online #1 基調講演/ライブコーディング](https://www.youtube.com/watch?v=Q-FJ3XmFlT8)
+    - 52:24 テスト容易性
 - [テスト駆動開発って何だろう](https://dev.classmethod.jp/articles/what-tdd/)
 - [What is BDD and Why?](https://medium.com/codeops/what-is-bdd-and-why-936e80bce511)
 - [What is BDD? An Introduction to Behavioral Driven Development](https://blog.testlodge.com/what-is-bdd/)
