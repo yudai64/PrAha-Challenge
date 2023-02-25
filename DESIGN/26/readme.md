@@ -11,6 +11,8 @@
 (感想)
 - ドメインサービスとアプリケーションサービスの違いがいまいちわからない...
     - [What are application and domain services in onion architecture?](https://softwareengineering.stackexchange.com/questions/386554/what-are-application-and-domain-services-in-onion-architecture)
+- アプリケーションコアに置くのはインターフェースだけ?
+> The first layer around the Domain Model is typically where we would find interfaces that provide object saving and retrieving behavior, called repository interfaces.  The object saving behavior is not in the application core, however, because it typically involves a database.  Only the interface is in the application core.  -- [The Onion Architecture : part 1](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/)
 
 ***ドメインモデル***
 - ビジネスロジックに関連した状態と振る舞いを一体化したオブジェクトを配置する。
